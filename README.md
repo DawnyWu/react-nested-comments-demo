@@ -2,6 +2,15 @@ react-nested-comments-demo
 ===
 一个react实现的评论盖楼的例子
 
+## 本地运行
+```js
+git clone https://github.com/DawnyWu/react-nested-comments-demo.git
+cd react-nested-comments-demo
+npm install
+npm start
+```
+在浏览器中打开 http://localhost:3001 即可查看例子
+
 ## 数据格式
 每个 `comment` 有 `id` 和 `parentId`
 
@@ -52,8 +61,7 @@ react-nested-comments-demo
 ```
 
 ### 实现效果
-
-
+![react-nested-comments-demo](https://raw.githubusercontent.com/DawnyWu/react-nested-comments-demo/master/comments.png)
 
 
 # License
