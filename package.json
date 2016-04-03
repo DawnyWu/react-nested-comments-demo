@@ -1,13 +1,13 @@
 {
-  "name": "comments",
+  "name": "React Nested Comments Demo",
   "version": "1.0.0",
   "description": "",
-  "main": "comment.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "DawnyWu <superbatironmans5@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.3.26",
     "babel-loader": "^6.2.0",

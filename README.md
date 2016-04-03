@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Comment from './Comment'
-import Comments from './Comments'
-import CommentsContainer from './CommentsContainer'
+react-nested-comments-demo
+===
+一个react实现的评论盖楼的例子
 
-class App extends React.Component {
+## 数据格式
+每个 `comment` 有 `id` 和 `parentId`
 
-  render() {
+最顶层的`comment`的`parentId`为`null`
+```js
     let comments = [
       {
         'id':0,
@@ -49,14 +49,15 @@ class App extends React.Component {
         'content': '路过'
       } 
     ]
+```
 
-    return (
-      <div className='container'>
-        <h1>React Nested Comments Demo</h1>
-        <CommentsContainer rootId={null} comments={comments}/>
-      </div>
-    );
-  }
-}
+### 实现效果
 
-ReactDOM.render(<App />, document.getElementById('app'));
+
+
+
+# License
+
+ MIT
+
+
